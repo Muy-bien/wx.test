@@ -1,0 +1,69 @@
+.header{
+  position: relative;
+}
+.header_icon{
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.6;
+}
+.header_img{
+  width: 100%;
+  height: 460rpx;
+  vertical-align: middle;
+}
+.author_data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.author_data > image{
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 100%;
+}
+.author{
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  color: #666;
+}
+.const_text{
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+}
+.title{
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  color: #4b556c;
+}
+.icon_box{
+  border-bottom: 2rpx solid #e5e5e5;
+  position: relative;
+  height: 45rpx;
+  margin-bottom: 60rpx;
+}
+.icon_box_x10{
+  position: absolute;
+  right: 0;top: 0;
+}
+.icon_box_x10 image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 40rpx;
+}
+.detail{
+  display: inline-block;
+  color: #666;
+  margin: 20rpx 30rpx 100rpx 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}

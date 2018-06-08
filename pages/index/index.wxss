@@ -1,0 +1,36 @@
+page{
+  background-color: #b3d4db;
+  height: 100%;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100%;
+  margin-top: 160rpx;
+}
+.user_name{
+  font-family: MicroSoft Yahei;
+  font-size: 32rpx;
+  font-weight: blod;
+  margin-top: 80rpx;
+}
+.user_main{
+  font-family: MicroSoft Yahei;
+  font-size: 22rpx;
+  font-weight: blod;
+  width: 200rpx;
+  height: 80rpx;
+  text-align: center;
+  border: 1rpx solid #333;
+  box-sizing: border-box;
+  line-height: 78rpx;
+  margin-top: 200rpx;
+  border-radius: 10rpx;
+  cursor: pointer;
+}

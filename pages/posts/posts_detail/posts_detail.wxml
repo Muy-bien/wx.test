@@ -1,0 +1,21 @@
+<view class='box'>
+  <view class='header'>
+    <image class='header_img' src='{{onMusic?data.music.coverImg:data.headImgSrc}}'></image>
+    <image catchtap='onClickMusic' class='header_icon' src='{{onMusic?"/images/music/music-stop.png":"/images/music/music-start.png"}}'></image>
+  </view>
+  <view class='author_data'>
+    <image src='{{data.avatar}}'></image>
+    <text class='author'>{{data.author}}</text>
+    <text class='const_text'>发表于</text>
+    <text class='const_text'>{{data.dateTime}}</text>
+  </view>
+  <text class='title'>{{data.title}}</text>
+  <view class='icon_box'>
+    <view class='icon_box_x10'>
+      <image wx:if="{{collection}}" catchtap='onclickCollection' src='/images/icon/collection.png'></image>
+      <image wx:else catchtap='onclickCollection' src='/images/icon/collection-anti.png'></image>
+      <image catchtap='onclickActionSheet' src='/images/icon/share.png'></image>
+    </view>
+  </view>
+  <text class='detail'>{{data.detail}}</text>
+</view>

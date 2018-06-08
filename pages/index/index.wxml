@@ -1,0 +1,7 @@
+<view class='box'>
+  <image class='logo' src='../../images/logo.jpg'></image>
+  <text class='user_name'>Hello,y先生</text>
+  <view class='user_main' bindtap="on_tap">
+    <text>开启小程序之旅</text>
+  </view>
+</view>
