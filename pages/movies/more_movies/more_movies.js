@@ -84,7 +84,7 @@ Page({
   onMovieTap: function (event) {
     var movieId = event.currentTarget.dataset.movieid;
     wx.navigateTo({
-      url: 'movie_detail/movie_detail?id=' + movieId,
+      url: '../movie_detail/movie_detail?id=' + movieId,
     })
   }
 })
